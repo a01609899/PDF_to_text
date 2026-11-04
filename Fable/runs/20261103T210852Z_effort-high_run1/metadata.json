@@ -1,0 +1,31 @@
+{
+  "model": "claude-fable-5-1",
+  "requested_model": "claude-fable-5-1",
+  "effort": "high",
+  "max_tokens": 128000,
+  "timestamp_utc": "20261103T210852Z",
+  "message_id": "msg_011CgggLTXjsyud22ymN7FUQ",
+  "stop_reason": "max_tokens",
+  "usage": {
+    "input_tokens": 2194,
+    "output_tokens": 128000
+  },
+  "estimated_cost_usd": 6.4219,
+  "prompt_sha256": "33fbb2fda03a5a14297c5506ce80e330f5282e6ce63574a723c197cd677e57a4",
+  "anthropic_sdk_version": "2.4.0",
+  "extracted_files": [
+    "pyproject.toml",
+    "requirements.txt",
+    "requirements-optional.txt",
+    "fable_pipeline\\__init__.py",
+    "fable_pipeline\\models.py",
+    "fable_pipeline\\config.py",
+    "fable_pipeline\\layout_utils.py",
+    "fable_pipeline\\ingestion.py",
+    "fable_pipeline\\boilerplate.py",
+    "fable_pipeline\\captions.py",
+    "fable_pipeline\\ollama_client.py",
+    "fable_pipeline\\ocr.py",
+    "fable_pipeline\\tables.py"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "timestamp_utc": "20261103T215418Z",
+  "message_id": "msg_011CggiiPwnhUdmYQ4RJtsDi",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 41316,
+    "output_tokens": 73504
+  },
+  "estimated_cost_usd": 4.0884,
+  "continue_message": "Your previous response was cut off because it reached the maximum output length.\nContinue the same project from where you stopped, using exactly the same output format.\n\nFiles already completed (do NOT repeat them): pyproject.toml, requirements.txt, requirements-optional.txt, fable_pipeline/__init__.py, fable_pipeline/models.py, fable_pipeline/config.py, fable_pipeline/layout_utils.py, fable_pipeline/ingestion.py, fable_pipeline/boilerplate.py, fable_pipeline/captions.py, fable_pipeline/ollama_client.py, fable_pipeline/ocr.py, fable_pipeline/tables.py\nFile that was cut off mid-way: fable_pipeline/figures.py. Rewrite this file in full, from its first line.\nThen write all remaining files of the project, each in full.\nKeep everything consistent with the interfaces and data structures already defined in the completed files.\nBe economical with planning: the design is already settled, so focus your output on writing the files.\nEnd with the short plain-text summary of the project structure."
+}

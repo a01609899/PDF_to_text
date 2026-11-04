@@ -1,0 +1,9 @@
+# Optional extras. Install on top of requirements.txt if you want the
+# "camelot" table strategy (config.tables.strategies += ["camelot"]).
+# Camelot additionally needs Ghostscript (system package) for the lattice flavour.
+camelot-py==0.11.0
+opencv-python-headless==4.10.0.84
+ghostscript==0.7
+# tabula-py is NOT used by the default pipeline (needs a Java runtime); it is
+# listed here only for completeness of the evaluated alternatives.
+# tabula-py==2.9.3

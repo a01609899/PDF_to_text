@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fable-pipeline"
+version = "1.0.0"
+description = "FABLE: a local, structure-preserving PDF-to-text extraction pipeline for RAG with local LLMs"
+requires-python = ">=3.11"
+dependencies = [
+    "PyMuPDF==1.24.9",
+    "pdfplumber==0.11.4",
+    "pandas==2.2.2",
+    "numpy==1.26.4",
+    "Pillow==10.4.0",
+    "pytesseract==0.3.13",
+    "ftfy==6.2.3",
+]
+
+[project.scripts]
+fable-pipeline = "fable_pipeline.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["fable_pipeline*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

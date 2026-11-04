@@ -1,0 +1,24 @@
+# Core dependencies (pinned). Python 3.11, CPU-only.
+PyMuPDF==1.24.9
+pdfplumber==0.11.4
+pandas==2.2.2
+numpy==1.26.4
+Pillow==10.4.0
+pytesseract==0.3.13
+ftfy==6.2.3
+pytest==8.3.2
+
+# ---------------------------------------------------------------------------
+# System dependencies (not installable via pip):
+#   * Tesseract OCR >= 5.x  (binary "tesseract" must be on PATH; install the
+#     language packs you need, e.g. "eng", "deu").  Required for OCR of scanned
+#     pages and of text inside figures. The pipeline degrades gracefully
+#     (warning, no OCR) when Tesseract is missing.
+#   * Ollama (https://ollama.com) running locally, only if LLM-based steps are
+#     enabled (figure descriptions, LLM-assisted table structuring). Pull the
+#     models you configure, e.g. `ollama pull llava:7b` and
+#     `ollama pull qwen2.5:7b`.
+#   * Optional table backends (see requirements-optional.txt):
+#       - Camelot needs Ghostscript (lattice flavour) and OpenCV.
+#       - tabula-py needs a Java runtime (not used by default).
+# ---------------------------------------------------------------------------
